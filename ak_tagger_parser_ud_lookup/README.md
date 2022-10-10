@@ -1,6 +1,6 @@
 <!-- SPACY PROJECT: AUTO-GENERATED DOCS START (do not remove) -->
 
-This project is a modified version of spacy's example model for pos tagging and dependency parsing (original text below). It is designed to work with the Akkadian Language class although that can easily be changed, as the documentation below indicates.
+This project is a modified version of spacy's example model for pos tagging and dependency parsing (original documentation below). It is designed to work with the Akkadian Language class although that can easily be changed, as the documentation below indicates.
 
 # 🪐 spaCy Project: Part-of-speech Tagging & Dependency Parsing (Universal Dependencies)
 
