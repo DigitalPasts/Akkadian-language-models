@@ -1,0 +1,5 @@
+outs:
+- md5: 9dba3382a82d242a65e90bb22ea35cf3.dir
+  size: 12677371
+  nfiles: 539
+  path: riao_saa1_combined_conllu
