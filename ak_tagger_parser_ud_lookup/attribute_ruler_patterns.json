@@ -6157,7 +6157,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PROPN"
+         "POS":"PROPN", "TAG": "TN","MORPH": "Gender=Masc|Number=Sing"
       }
    },
    {
@@ -6169,7 +6169,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PROPN"
+         "POS":"PROPN", "TAG": "TN","MORPH": "Gender=Masc|Number=Sing"
       }
    },
    {
@@ -6181,7 +6181,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PROPN"
+         "POS":"PROPN", "TAG": "TN","MORPH": "Gender=Masc|Number=Sing"
       }
    },
    {
@@ -6193,7 +6193,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PROPN"
+         "POS":"PROPN", "TAG": "TN","MORPH": "Gender=Masc|Number=Sing"
       }
    },
    {
@@ -7058,7 +7058,7 @@
          ]
       ],
       "attrs":{
-         "POS":"VERB"
+         "POS":"VERB", "TAGS": "VERB","MORPH": "Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G|Subordinative=Yes|SubSuff=Yes"
       }
    },
    {
@@ -7826,7 +7826,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PROPN"
+         "POS":"PROPN", "TAG": "TN","MORPH": "Gender=Masc|Number=Sing"
       }
    },
    {
@@ -21880,7 +21880,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PROPN"
+         "POS":"PROPN", "TAG": "TN","MORPH": "Gender=Masc|Number=Sing"
       }
    },
    {
@@ -22504,7 +22504,7 @@
          ]
       ],
       "attrs":{
-         "POS":"VERB"
+         "POS":"VERB","TAGS": "VERB","MORPH": "Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|VerbStem=D"
       }
    },
    {
@@ -22516,7 +22516,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PROPN"
+         "POS":"PROPN", "TAG": "TN","MORPH": "Gender=Masc|Number=Sing"
       }
    },
    {
@@ -22528,7 +22528,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PROPN"
+         "POS":"PROPN","TAG": "TN","MORPH": "Gender=Masc|Number=Sing"
       }
    },
    {
@@ -22540,7 +22540,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PROPN"
+         "POS":"PROPN","TAG": "TN","MORPH": "Gender=Masc|Number=Sing"
       }
    },
    {
@@ -22624,7 +22624,7 @@
          ]
       ],
       "attrs":{
-         "POS":"VERB"
+         "POS":"VERB","TAGS": "VERB","MORPH": "Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbStem=G"
       }
    },
    {
