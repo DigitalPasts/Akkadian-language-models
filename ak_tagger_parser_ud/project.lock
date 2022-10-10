@@ -1,0 +1,85 @@
+preprocess:
+  cmd: python -m spacy run preprocess
+  script:
+    - mkdir -p corpus/UD_Akkadian_saa01
+    - python -m spacy convert assets/UD_Akkadian_saa01/akk_combined_nonrenumbered-ud-train.conllu  corpus/UD_Akkadian_saa01/  --converter
+      conllu --merge-subtokens
+    - python -m spacy convert  assets/UD_Akkadian_saa01/akk_combined_nonrenumbered-ud-dev.conllu  corpus/UD_Akkadian_saa01/  --converter
+      conllu --merge-subtokens
+    - python -m spacy convert  assets/UD_Akkadian_saa01/akk_combined_nonrenumbered-ud-test.conllu
+      corpus/UD_Akkadian_saa01/ --converter conllu --merge-subtokens
+    - mv corpus/UD_Akkadian_saa01/akk_combined_nonrenumbered-ud-train.spacy corpus/UD_Akkadian_saa01/train.spacy
+    - mv corpus/UD_Akkadian_saa01/akk_combined_nonrenumbered-ud-dev.spacy corpus/UD_Akkadian_saa01/dev.spacy
+    - mv corpus/UD_Akkadian_saa01/akk_combined_nonrenumbered-ud-test.spacy corpus/UD_Akkadian_saa01/test.spacy
+  deps:
+    - path: assets/UD_Akkadian_saa01/akk_combined_nonrenumbered-ud-train.conllu
+      md5: 1a5085475a07491e90ce6eddee341a18
+    - path: assets/UD_Akkadian_saa01/akk_combined_nonrenumbered-ud-dev.conllu
+      md5: 955304d6b80fd7b74541a71ecf0068d3
+    - path: assets/UD_Akkadian_saa01/akk_combined_nonrenumbered-ud-test.conllu
+      md5: d0116da5cbcd332fe1ad2b6b5c4c542d
+  outs:
+    - path: corpus/UD_Akkadian_saa01/train.spacy
+      md5: 98438110b8714e012ade4ec441be7795
+    - path: corpus/UD_Akkadian_saa01/dev.spacy
+      md5: 3d2ff0b8308bb0c3803dad46c1b6337e
+    - path: corpus/UD_Akkadian_saa01/test.spacy
+      md5: 673034cd07ac6ef5c3b7a6e9f8241ee3
+  spacy_version: 3.4.1
+  spacy_git_version: 5c2a00cef
+train:
+  cmd: python -m spacy run train
+  script:
+    - python -m spacy train  configs/default.cfg --output training/UD_Akkadian_saa01
+      --gpu-id -1  --paths.train corpus/UD_Akkadian_saa01/train.spacy  --paths.dev
+      corpus/UD_Akkadian_saa01/dev.spacy  --nlp.lang=xx
+  deps:
+    - path: corpus/UD_Akkadian_saa01/train.spacy
+      md5: 98438110b8714e012ade4ec441be7795
+    - path: corpus/UD_Akkadian_saa01/dev.spacy
+      md5: 3d2ff0b8308bb0c3803dad46c1b6337e
+    - path: configs/default.cfg
+      md5: 709e2ddbe3be6bbe6113e9a99a0d7e9c
+  outs:
+    - path: training/UD_Akkadian_saa01/model-best
+      md5: 006d6083d5161931330a2330fa69bfc5
+  spacy_version: 3.4.1
+  spacy_git_version: 5c2a00cef
+package:
+  cmd: python -m spacy run package
+  script:
+    - python -m spacy package  training/UD_Akkadian_saa01/model-best packages  --name
+      ud_akk_saa01  --version 0.0.0 --force
+  deps:
+    - path: training/UD_Akkadian_saa01/model-best
+      md5: 1fe49e36188e5a303f12224e8dcc4632
+  outs:
+    - path: packages/xx_ud_akk_saa01-0.0.0/dist/en_ud_akk_saa01-0.0.0.tar.gz
+      md5: null
+  spacy_version: 3.4.1
+  spacy_git_version: 5c2a00cef
+clean:
+  cmd: python -m spacy run clean
+  script:
+    - rm -rf training/*
+    - rm -rf metrics/*
+    - rm -rf corpus/*
+  deps: []
+  outs: []
+  spacy_version: 3.4.1
+  spacy_git_version: 5c2a00cef
+evaluate:
+  cmd: python -m spacy run evaluate
+  script:
+    - python -m spacy evaluate  ./training/UD_Akkadian_saa01/model-best  ./corpus/UD_Akkadian_saa01/test.spacy  --output
+      ./metrics/UD_Akkadian_saa01.json  --gpu-id -1
+  deps:
+    - path: training/UD_Akkadian_saa01/model-best
+      md5: 006d6083d5161931330a2330fa69bfc5
+    - path: corpus/UD_Akkadian_saa01/test.spacy
+      md5: 673034cd07ac6ef5c3b7a6e9f8241ee3
+  outs:
+    - path: metrics/UD_Akkadian_saa01.json
+      md5: 662d33a41a71baebd62d932a43b8b642
+  spacy_version: 3.4.1
+  spacy_git_version: 5c2a00cef
