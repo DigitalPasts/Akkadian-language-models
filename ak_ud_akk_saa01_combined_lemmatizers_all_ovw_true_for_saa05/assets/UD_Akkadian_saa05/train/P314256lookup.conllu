@@ -1,0 +1,9 @@
+1	02	02	NUM	NUM	_	2	nummod	_	_
+2	diqārāti	diqārāti	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Plur	0	ROOT	_	_
+3	03	03	NUM	NUM	_	_	_	_	_
+4	x	x	X	X	_	_	_	_	_
+5	x	x	X	X	_	_	_	_	_
+6	mā	mā	PART	Quotative	_	_	_	_	_
+7	ina	ina	ADP	ADP	_	8	case	_	_
+8	Šubriaya	šubriaya	PROPN	EN	Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_
+9	attidīni	attidīni	VERB	VERB	Gender=Com|Mood=Ind|Number=Sing|Person=1|Tense=Perf|VerbForm=Fin|VerbStem=G	8	conj	_	SpaceAfter=No
