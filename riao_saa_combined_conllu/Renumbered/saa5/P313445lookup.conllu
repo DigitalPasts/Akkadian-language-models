@@ -1,0 +1,177 @@
+#P313445
+# text = x x x x x x+x man x+x x x x x x x+x-ni šina x x x x+x šadê šaniu x x x x x+x-ha-ni isahhura x x x x x+x dannu ina Šime x x x x-hi ša eleppāti dannāti x x x ta-ha-ni-šu₂-ni mar ša ibaššûni x x x x eleppāti annāte pāṣa x x x-da-du isahhura x x x x-ha-ni-šu₂-nu issurri šarru bēlī iqabbi mā o x eleppāti annāte o x x x x x x x x x i x x x x x x x x x askuppāti x x x x x x x nāmeri x x x x x x x x-ni askuppāti ša ina muhhi nāri karrāni ušebbāra x x x x dullu ša eleppāti eppaš mīnu ša šarru bēlī iqabbûni
+1	x	x	X	X	_	0	ROOT	_	_
+2	x	x	X	X	_	_	_	_	_
+3	x	x	X	X	_	_	_	_	_
+4	x	x	X	X	_	_	_	_	_
+5	x	x	X	X	_	_	_	_	_
+6	x+x	x+x	X	X	_	_	_	_	_
+7	man	man	X	X	_	_	_	_	_
+8	x+x	x+x	X	X	_	_	_	_	_
+9	x	x	X	X	_	_	_	_	_
+10	x	x	X	X	_	_	_	_	_
+11	x	x	X	X	_	_	_	_	_
+12	x	x	X	X	_	_	_	_	_
+13	x	x	X	X	_	_	_	_	_
+14	x+x	x+x	X	X	_	_	_	_	SpaceAfter=No
+15	-	-		_	_	_	_	_	SpaceAfter=No
+16	ni	ni	X	X	_	_	_	_	_
+17	šina	šina	X	DET	_	_	_	_	_
+18	x	x	X	X	_	_	_	_	_
+19	x	x	X	X	_	_	_	_	_
+20	x	x	X	X	_	_	_	_	_
+21	x+x	x+x	X	X	_	_	_	_	_
+22	šadê	šadû	NOUN	NOUN	Gender=Masc|Number=Sing|Case=Gen	_	_	_	_
+23	šaniu	šanû	ADJ	ADJ	Case=Gen|Gender=Masc|Number=Sing	22	amod	_	_
+24	x	x	X	X	_	_	_	_	_
+25	x	x	X	X	_	_	_	_	_
+26	x	x	X	X	_	_	_	_	_
+27	x	x	X	X	_	_	_	_	_
+28	x+x	x+x	X	X	_	_	_	_	SpaceAfter=No
+29	-	-	X	X	_	_	_	_	SpaceAfter=No
+30	ha	ha	X	X	_	_	_	_	SpaceAfter=No
+31	-	-	X	X	_	_	_	_	SpaceAfter=No
+32	ni	ni	X	X	_	_	_	_	_
+33	isahhura	sahāru	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
+
+#
+#
+34	x	x	X	X	_	_	_	_	_
+35	x	x	X	X	_	_	_	_	_
+36	x	x	X	X	_	_	_	_	_
+37	x	x	X	X	_	_	_	_	_
+38	x+x	x+x	X	X	_	_	_	_	_
+39	dannu	dannu	ADJ	ADJ	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+40	ina	ina	ADP	ADP	_	41	case	_	_
+41	Šime	šime	PROPN	SN	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+42	x	x	X	X	_	_	_	_	_
+43	x	x	X	X	_	_	_	_	_
+44	x	x	X	X	_	_	_	_	_
+45	x	x	X	X	_	_	_	_	SpaceAfter=No
+46	-	-	X	X	_	_	_	_	SpaceAfter=No
+47	hi	hi	X	X	_	_	_	_	_
+48	ša	ša	PRON	PRON	_	_	_	_	_
+49	eleppāti	eleppu	NOUN	NOUN	Gender=Fem|Number=Plur	_	_	_	_
+50	dannāti	dannāti	ADJ	ADJ	Gender=Fem|Number=Plur	49	amod	_	_
+51	x	x	X	X	_	_	_	_	_
+52	x	x	X	X	_	_	_	_	_
+53	x	x	X	X	_	_	_	_	_
+54	ta	ta	X	X	_	_	_	_	SpaceAfter=No
+55	-	-	X	X	_	_	_	_	SpaceAfter=No
+56	ha	ha	X	X	_	_	_	_	SpaceAfter=No
+57	-	-	X	X	_	_	_	_	SpaceAfter=No
+58	ni	ni	X	X	_	_	_	_	SpaceAfter=No
+59	-	-	X	X	_	_	_	_	SpaceAfter=No
+60	šu₂-ni	šu₂-ni	X	X	_	_	_	_	_
+61	mar	ammar	PRON	PRON	_	63	nsubj	_	_
+62	ša	ša	PRON	PRON	_	61	fixed	_	_
+63	ibaššûni	bašû	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
+64	x	x	X	X	_	_	_	_	_
+65	x	x	X	X	_	_	_	_	_
+66	x	x	X	X	_	_	_	_	_
+67	x	x	X	X	_	_	_	_	_
+68	eleppāti	eleppu	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Plur	70	nsubj	_	_
+69	annāte	annû	DET	DET	Case=Acc|Gender=Fem|Number=Plur	68	det	_	_
+70	pāṣa	pāṣa	VERB	VERB	Gender=Fem|Number=Plur|Person=3|VerbForm=Stat|Mood=Ind|VerbStem=G|Voice=Pass	_	_	_	_
+71	x	x	X	X	_	_	_	_	_
+72	x	x	X	X	_	_	_	_	_
+73	x	x	X	X	_	_	_	_	SpaceAfter=No
+74	-	-	X	X	_	_	_	_	SpaceAfter=No
+75	da	da	X	X	_	_	_	_	SpaceAfter=No
+76	-	-	X	X	_	_	_	_	SpaceAfter=No
+77	du	du	PROPN	X	_	_	_	_	_
+78	isahhura	sahāru	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Ventive=Yes|VerbForm=Fin|VerbStem=G	_	_	_	_
+
+#
+#
+79	x	x	X	X	_	_	_	_	_
+80	x	x	X	X	_	_	_	_	_
+81	x	x	X	X	_	_	_	_	_
+82	x	x	X	X	_	_	_	_	SpaceAfter=No
+83	-	-	X	X	_	_	_	_	SpaceAfter=No
+84	ha	ha	X	X	_	_	_	_	SpaceAfter=No
+85	-	-	X	X	_	_	_	_	SpaceAfter=No
+86	ni	ni	X	X	_	_	_	_	SpaceAfter=No
+87	-	-	X	X	_	_	_	_	SpaceAfter=No
+88	šu₂-nu	šu₂-nu	X	X	_	_	_	_	_
+
+#
+#
+89	issurri	issurri	ADV	ADV	_	92	advmod	_	_
+90	šarru	šarru	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	92	nsubj	_	_
+91	bēlī	bēlu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	90	appos	_	_
+92	iqabbi	qabû	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+93	mā	mā	PART	Quotative	_	_	_	_	_
+94	o	o	X	X	_	_	_	_	_
+95	x	x	X	X	_	_	_	_	_
+96	eleppāti	eleppu	NOUN	NOUN	Gender=Fem|Number=Plur	_	_	_	_
+97	annāte	annû	DET	DET	Gender=Fem|Number=Sing	96	det	_	_
+98	o	o	X	X	_	_	_	_	_
+99	x	x	X	X	_	_	_	_	_
+100	x	x	X	X	_	_	_	_	_
+101	x	x	X	X	_	_	_	_	_
+102	x	x	X	X	_	_	_	_	_
+103	x	x	X	X	_	_	_	_	_
+104	x	x	X	X	_	_	_	_	_
+105	x	x	X	X	_	_	_	_	_
+106	x	x	X	X	_	_	_	_	_
+107	x	x	X	X	_	_	_	_	_
+108	i	i	X	X	_	_	_	_	_
+109	x	x	X	X	_	_	_	_	_
+110	x	x	X	X	_	_	_	_	_
+111	x	x	X	X	_	_	_	_	_
+112	x	x	X	X	_	_	_	_	_
+113	x	x	X	X	_	_	_	_	_
+114	x	x	X	X	_	_	_	_	_
+115	x	x	X	X	_	_	_	_	_
+116	x	x	X	X	_	_	_	_	_
+117	x	x	X	X	_	_	_	_	_
+118	askuppāti	askuppu	NOUN	NOUN	Gender=Fem|Number=Plur	_	_	_	_
+119	x	x	X	X	_	_	_	_	_
+120	x	x	X	X	_	_	_	_	_
+121	x	x	X	X	_	_	_	_	_
+122	x	x	X	X	_	_	_	_	_
+123	x	x	X	X	_	_	_	_	_
+124	x	x	X	X	_	_	_	_	_
+125	x	x	X	X	_	_	_	_	_
+126	nāmeri	nāmaru	NOUN	NOUN	Gender=Masc|Number=Plur	_	_	_	_
+127	x	x	X	X	_	_	_	_	_
+128	x	x	X	X	_	_	_	_	_
+129	x	x	X	X	_	_	_	_	_
+130	x	x	X	X	_	_	_	_	_
+131	x	x	X	X	_	_	_	_	_
+132	x	x	X	X	_	_	_	_	_
+133	x	x	X	X	_	_	_	_	_
+134	x	x	X	X	_	_	_	_	SpaceAfter=No
+135	-	-	X	X	_	_	_	_	SpaceAfter=No
+136	ni	ni	X	X	_	_	_	_	_
+
+#
+#
+137	askuppāti	askuppu	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Plur	143	obj	_	_
+138	ša	ša	PRON	PRON	_	142	nsubj	_	_
+139	ina	ina	ADP	ADP	_	140	case	_	_
+140	muhhi	muhhu	NOUN	NOUN	Case=Gen|Gender=Masc|NounStem=Bound|Number=Sing	_	_	_	_
+141	nāri	nāru	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	140	nmod	_	_
+142	karrāni	karru	VERB	VERB	Gender=Fem|Mood=Ind|Number=Plur|Person=3|SubSuff=Yes|SubSuff=Yes|VerbForm=Stat|VerbStem=G	137	acl	_	_
+143	ušebbāra	ušebbāra	VERB	VERB	Gender=Com|Number=Sing|Person=1|Tense=Pres|Mood=Ind|VerbForm=Fin|VerbStem=Š|Ventive=Yes	0	ROOT	_	_
+
+#
+#
+144	x	x	X	X	_	_	_	_	_
+145	x	x	X	X	_	_	_	_	_
+146	x	x	X	X	_	_	_	_	_
+147	x	x	X	X	_	_	_	_	_
+148	dullu	dullu	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing	151	obj	_	_
+149	ša	ša	ADP	ADP	_	150	case	_	_
+150	eleppāti	eleppu	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Plur	148	nmod	_	_
+151	eppaš	epēšu	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+
+#
+#
+152	mīnu	mīnu	PRON	PRON	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+153	ša	ša	PRON	PRON	_	156	obj	_	_
+154	šarru	šarru	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	156	nsubj	_	_
+155	bēlī	bēlu	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing|PossSuffNum=Sing|PossSuffPer=1	154	appos	_	_
+156	iqabbûni	qabû	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	152	nsubj	_	_
+

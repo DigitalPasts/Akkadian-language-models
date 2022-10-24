@@ -28,8 +28,12 @@
        "attrs": {"POS": "DET","TAG": "DET"}
    },
    {
-       "patterns": [[{"ORTH":{"IN": ["'bēt mardītīya'","bēt mardītīya"]}}]],
+       "patterns": [[{"ORTH":{"IN": ["bēt mardītīya","bēt mardītīya"]}}]],
        "attrs": {"POS": "NOUN","TAG": "NOUN","MORPH": "Gender=Masc|Number=Sing"}
+   },
+   {
+       "patterns": [[{"ORTH":{"IN": ["rab ālāni"]}}]],
+       "attrs": {"POS": "NOUN","TAG": "NOUN","MORPH": "Gender=Masc|Number=Plur"}
    },
    {
       "patterns":[
@@ -106,6 +110,34 @@
       "attrs":{
          "POS":"VERB",
          "MORPH":"Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G"
+      }
+   },
+   {
+      "patterns":[
+         [
+            {
+               "ORTH":"turgumānu"
+            }
+         ]
+      ],
+      "attrs":{
+         "POS":"NOUN",
+         "TAG": "N",
+         "MORPH":"Gender=Masc|Number=Sing"
+      }
+   },
+   {
+      "patterns":[
+         [
+            {
+               "ORTH":"turgumāni"
+            }
+         ]
+      ],
+      "attrs":{
+         "POS":"NOUN",
+         "TAG": "N",
+         "MORPH":"Gender=Masc|Number=Sing|Case=Gen"
       }
    },
    {
@@ -879,7 +911,7 @@
          ]
       ],
       "attrs":{
-         "POS":"DET"
+         "POS":""
       }
    },
    {
@@ -2031,7 +2063,7 @@
          ]
       ],
       "attrs":{
-         "POS":"NOUN"
+         "POS":"NOUN","TAG": "N","MORPH": "Gender=Fem|Number=Plur|Case=Gen|PossSuffNum=Plur|PossSuffPer=2|PossSuffGen=Masc"
       }
    },
    {
@@ -2211,7 +2243,7 @@
          ]
       ],
       "attrs":{
-         "POS":"NOUN"
+         "POS":"NOUN","TAG": "N","MORPH": "Gender=Fem|Number=Plur"
       }
    },
    {
@@ -2403,7 +2435,7 @@
          ]
       ],
       "attrs":{
-         "POS":"NOUN"
+         "POS":"NOUN","TAG": "N","MORPH": "Gender=Fem|Number=Plur|PossSuffNum=Sing|PossSuffPer=3|PossSuffGen=Masc"
       }
    },
    {
@@ -3279,7 +3311,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PROPN"
+         "POS":"PROPN","TAG": "SN","MORPH": "Gender=Masc|Number=Sing"
       }
    },
    {
@@ -5463,7 +5495,7 @@
          ]
       ],
       "attrs":{
-         "POS":"VERB"
+         "POS":"VERB","TAG": "VERB","MORPH": "Gender=Masc|Number=Sing|Person=3|Mood=Prec|VerbStem=G"
       }
    },
    {
@@ -7492,7 +7524,7 @@
          ]
       ],
       "attrs":{
-         "POS":"PROPN"
+         "POS":"PROPN","TAG":"SN","MORPH": "Gender=Masc|Number=Sing"
       }
    },
    {
@@ -9725,7 +9757,7 @@
          ]
       ],
       "attrs":{
-         "POS":"NOUN"
+         "POS":"NOUN","TAG": "Gender=Masc|Number=Sing|NounStem=Bound"
       }
    },
    {
@@ -13517,7 +13549,7 @@
          ]
       ],
       "attrs":{
-         "POS":"VERB"
+         "POS":"VERB","TAG": "VERB","MORPH": "Gender=Masc|Number=Plur|Person=3|Mood=Prec|VerbStem=G|Ventive=Yes|VerbSuffNum=Plur|VerbSuffPer=2|VerbSuffGen=Masc"
       }
    },
    {
@@ -15822,7 +15854,7 @@
          ]
       ],
       "attrs":{
-         "POS":"NOUN"
+         "POS":"NOUN","TAG": "N","MORPH": "Gender=Masc|Number=Sing|Case=Nom|PossSuffNum=Sing|PossSuffPer=3|PossSuffGen=Masc"
       }
    },
    {
@@ -16734,7 +16766,7 @@
          ]
       ],
       "attrs":{
-         "POS":"NOUN"
+         "POS":"NOUN","TAG": "N","MORPH": "Gender=Fem|Number=Plur|PossSuffNum=Sing|PossSuffPer=3|PossSuffGen=Masc"
       }
    },
    {
@@ -16902,7 +16934,7 @@
          ]
       ],
       "attrs":{
-         "POS":"NOUN"
+         "POS":"NOUN","TAG": "N","MORPH": "Gender=Fem|Number=Plur|PossSuffNum=Sing|PossSuffPer=2|PossSuffGen=Masc"
       }
    },
    {
@@ -17346,7 +17378,7 @@
          ]
       ],
       "attrs":{
-         "POS":"NOUN"
+         "POS":"NOUN","TAG": "N","MORPH": "Gender=Fem|Number=Plur|PossSuffNum=Plur|PossSuffPer=3|PossSuffGen=Fem"
       }
    },
    {
@@ -18582,7 +18614,7 @@
          ]
       ],
       "attrs":{
-         "POS":"NOUN"
+         "POS":"NOUN","TAG": "N","MORPH": "Gender=Fem|Number=Plur|PossSuffNum=Sing|PossSuffPer=1|PossSuffGen=Com"
       }
    },
    {
@@ -21534,7 +21566,7 @@
          ]
       ],
       "attrs":{
-         "POS":"NOUN"
+         "POS":"NOUN","TAG": "N","MORPH": "Gender=Fem|Number=Plur|PossSuffNum=Sing|PossSuffPer=3|PossSuffGen=Masc|SubSuff=Yes"
       }
    },
    {
@@ -32742,7 +32774,7 @@
          ]
       ],
       "attrs":{
-         "POS":"NOUN"
+         "POS":"NOUN","TAG": "N","MORPH": "Gender=Fem|Number=Plur|PossSuffNum=Plur|PossSuffPer=3|PossSuffGen=Masc"
       }
    },
    {
@@ -33234,7 +33266,7 @@
          ]
       ],
       "attrs":{
-         "POS":"VERB"
+         "POS":"VERB","TAG": "VERB","MORPH": "Gender=Masc|Number=Plur|Person=3|Tense=Pres|Mood=Ind|VerbForm=Fin|VerbStem=D"
       }
    },
    {
@@ -37086,7 +37118,7 @@
          ]
       ],
       "attrs":{
-         "POS":"NOUN"
+         "POS":"NOUN","TAG": "N","MORPH": "Gender=Fem|Number=Plur|PossSuffNum=Sing|PossSuffPer=3|PossSuffGen=Masc"
       }
    },
    {
@@ -37446,7 +37478,7 @@
          ]
       ],
       "attrs":{
-         "POS":"NOUN"
+         "POS":"NOUN","TAG": "Gender=Fem|Number=Plur"
       }
    },
    {
@@ -38530,8 +38562,8 @@
          ]
       ],
       "attrs":{
-         "POS":"ADP",
-         "TAG":"PRP"
+         "POS":"PART",
+         "TAG":"Quotative"
       }
    },
    {
@@ -38574,8 +38606,8 @@
          ]
       ],
       "attrs":{
-         "POS":"ADP",
-         "TAG":"PRP"
+         "POS":"",
+         "TAG":""
       }
    },
    {
@@ -40731,8 +40763,9 @@
          ]
       ],
       "attrs":{
-         "POS":"ADP",
-         "TAG":"PRP"
+         "POS":"PART",
+         "TAG":"Quotative",
+         "MORPH": "Gender=Com|Person=1|Number=Sing"
       }
    },
    {
@@ -45633,7 +45666,8 @@
       ],
       "attrs":{
          "POS":"NOUN",
-         "TAG":"N"
+         "TAG":"N",
+         "MORPH": "Gender=Masc|Number=Sing|NounStem=Bound"
       }
    },
    {
@@ -45942,7 +45976,8 @@
       ],
       "attrs":{
          "POS":"NOUN",
-         "TAG":"N"
+         "TAG":"N",
+         "MORP": "sinništu"
       }
    },
    {

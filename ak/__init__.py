@@ -1,6 +1,6 @@
 
 import spacy
-from spacy.language import Language
+from spacy.language import Language, BaseDefaults
 from spacy.lang.tokenizer_exceptions import URL_MATCH
 #from thinc.api import Config
 from .stop_words import STOP_WORDS
@@ -16,12 +16,13 @@ import srsly
 from .lemmatizer import AkkadianLemmatizer
 
 # https://nightly.spacy.io/api/language#defaults
-class AkkadianDefaults(Language.Defaults):
+class AkkadianDefaults(BaseDefaults):
     stop_words = STOP_WORDS
     tokenizer_exceptions = TOKENIZER_EXCEPTIONS
     prefixes = TOKENIZER_PREFIXES
     suffixes = TOKENIZER_SUFFIXES
     infixes = TOKENIZER_INFIXES
+    lex_attr_getters = LEX_ATTRS
     token_match = None
     url_match = URL_MATCH
     #tag_map = TAG_MAP
@@ -64,8 +65,8 @@ def make_lemmatizer(
 @spacy.registry.lookups("ak")
 def do_registration():
     from pathlib import Path
-    current_path = Path.cwd() #Original line: cadet_path = Path.cwd()
-    lookups_path = current_path / "lookups"  #Original line: lookups_path = cadet_path / "new_lang" / "yiddish" / "lookups"
+    current_path = Path.cwd()
+    lookups_path = current_path / "lookups"
     result = {}
     for lookup in lookups_path.iterdir():
         key = lookup.stem[lookup.stem.find('_') + 1:]

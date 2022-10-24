@@ -1,0 +1,8 @@
+#P313453
+#
+1	šarru	šarru	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	bēlī	bēlu	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|PossSuffGen=Com|PossSuffNum=Sing|PossSuffPer=1	1	appos	_	_
+3	kî	kī	ADP	PRP	_	4	case	_	_
+4	ša	ša	PRON	PRON	_	5	obj	_	_
+5	ilaʾʾûni	leʾû	VERB	V	Gender=Masc|Mood=Ind|Person=3|SubSuff=Yes|Subordinative=Yes|Tense=Pres|VerbForm=Fin|VerbStem=G	6	obl	_	_
+6	lēpušu	epēšu	VERB	V	Gender=Masc|Mood=Prec|Number=Sing|Person=3|VerbStem=G|Ventive=Yes	0	ROOT	_	_

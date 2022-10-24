@@ -1,0 +1,44 @@
+#P313453
+# text = x x x x x x x x x x x x x x 56 tikpī libittu KIN-MEŠ x x x x-tu₂ ittasāha issapar ina muhhīšu mā atâ x x x x-tu₂ tassuh mā rēhti dullīya ša eppašūni x x x libittāti ibašši x x x-di-šu₂ ahhūr ebirtu išahhaṭ x x x x x+x-ni ša libittāti ša dūrīšu ina muhhi šarri bēlīya ussēbila issurri šarru bēlī iqabbi mā ana manni libittāti x x tādin 40 līmu ana Arpadda 40 līmu ana Samirna 40 līmu ana Magidu gimru 01 mē 20 līmu issu pān libīt šarri gimru 30 līmu issu pān Naʾdi-ilu gimrumma 01 mē 50 līmu libittāti attidin u libittāti ša rab ālāni šarri ša šarru bēlī išpuranni urtamme šarri bēlī ūda ša-rēšāni zēr šarri ša libittāti issu pānišunu anaššûni ana rabiūti addinūni ana šarri bēlīya imahhuru šarru bēlī kî ša ilaʾʾûni lēpušu šarru bēlī ūda ina timāli ina šaššūme libittāti ana libīt šarri attidin x x dullu ša šarri x x x x
+1	x	x	X	X	_	_	_	_	_
+2	x	x	X	X	_	_	_	_	_
+3	x	x	X	X	_	_	_	_	_
+4	x	x	X	X	_	_	_	_	_
+5	x	x	X	X	_	_	_	_	_
+6	x	x	X	X	_	_	_	_	_
+7	x	x	X	X	_	_	_	_	_
+8	x	x	X	X	_	_	_	_	_
+9	x	x	X	X	_	_	_	_	_
+10	x	x	X	X	_	_	_	_	_
+11	x	x	X	X	_	_	_	_	_
+12	x	x	X	X	_	_	_	_	_
+13	x	x	X	X	_	_	_	_	_
+14	x	x	X	X	_	_	_	_	_
+15	56	56	NUM	n	_	16	nummod	_	_
+16	tikpī	tibku	NOUN	N	Gender=Masc|Number=Plur|NounStem=Bound	_	_	_	_
+17	libittu	libittu	NOUN	N	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	KIN	kin	X	X	_	_	_	_	SpaceAfter=No
+19	-	-	X	X	_	_	_	_	SpaceAfter=No
+20	MEŠ	meš	X	X	_	_	_	_	_
+21	x	x	X	X	_	_	_	_	_
+22	x	x	X	X	_	_	_	_	_
+23	x	x	X	X	_	_	_	_	_
+24	x	x	X	X	_	_	_	_	SpaceAfter=No
+25	-	-	X	X	_	_	_	_	SpaceAfter=No
+26	tu₂	tu₂	X	X	_	_	_	_	_
+27	ittasāha	nasāhu	VERB	VERB	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbStem=G	_	_	_	_
+
+#
+#
+1	issapar	šapāru	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|VerbStem=G	0	ROOT	_	_
+2	ina	ina	ADP	PRP	_	3	case	_	_
+3	muhhīšu	muhhu	NOUN	N	Case=Gen|Gender=Masc|Number=Sing|PossSuffGen=Masc|PossSuffNum=Sing|PossSuffPer=3	1	iobj	_	_
+4	mā	mā	PART	Quotative	_	12	discourse	_	_
+5	atâ	atā	PRON	QP	_	12	advmod	_	_
+6	x	x	X	X	_	_	_	_	_
+7	x	x	X	X	_	_	_	_	_
+8	x	x	X	X	_	_	_	_	_
+9	x	x	X	X	_	_	_	_	SpaceAfter=No
+10	-	-	X	X	_	_	_	_	SpaceAfter=No
+11	tu₂	tu₂	X	X	_	12	dep	_	_
+12	tassuh	nasāhu	VERB	V	Gender=Masc|Mood=Ind|Number=Sing|Person=2|Tense=Perf|Ventive=Yes|VerbForm=Fin|VerbStem=G	1	ccomp	_	_
