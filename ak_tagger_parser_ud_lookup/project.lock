@@ -27,31 +27,31 @@ preprocess:
 train:
   cmd: python -m spacy run train
   script:
-    - python -m spacy train  configs/combined_lemmatizers.cfg --output training/UD_Akkadian_saa01
+    - python -m spacy train  configs/combined_lemmatizers_suff.cfg --output training/UD_Akkadian_saa01
       --gpu-id -1  --paths.train corpus/UD_Akkadian_saa01/train  --paths.dev corpus/UD_Akkadian_saa01/dev  --nlp.lang=ak
   deps:
     - path: corpus/UD_Akkadian_saa01/train
-      md5: e9022595976f9fe9224a17b9a72914c6
+      md5: 772b56855fe8d014bb9f4dba46ce5bc6
     - path: corpus/UD_Akkadian_saa01/dev
       md5: 03805ba275134bab8f17b806d2da1a01
-    - path: configs/combined_lemmatizers.cfg
-      md5: 0009dafecf73d28474eabb7c7a0b4b8e
+    - path: configs/combined_lemmatizers_suff.cfg
+      md5: 0e5802e03be998225c85f5c5cfa819a0
   outs:
     - path: training/UD_Akkadian_saa01/model-best
-      md5: de829ebf0aadd36a4933ecf68c8bb40f
+      md5: 6b5eab3d2fc3a15d29c8fcb5d9011b37
   spacy_version: 3.4.1
   spacy_git_version: 5c2a00cef
 package:
   cmd: python -m spacy run package
   script:
     - python -m spacy package  training/UD_Akkadian_saa01/model-best packages  --name
-      ud_akk_saa01_combined_lemmatizers_all_ovw_true_saa05lemmas  --version 0.0.0
+      ud_akk_saa01_combined_lemmatizers_all_ovw_true_saa05lemmas_suff  --version 0.0.0
       --force
   deps:
     - path: training/UD_Akkadian_saa01/model-best
-      md5: fa5428e33e5728132bc5cb28619e3781
+      md5: 6b5eab3d2fc3a15d29c8fcb5d9011b37
   outs:
-    - path: packages/ak_ud_akk_saa01_combined_lemmatizers_all_ovw_true_saa05lemmas-0.0.0/dist/en_ud_akk_saa01_combined_lemmatizers_all_ovw_true_saa05lemmas-0.0.0.tar.gz
+    - path: packages/ak_ud_akk_saa01_combined_lemmatizers_all_ovw_true_saa05lemmas_suff-0.0.0/dist/en_ud_akk_saa01_combined_lemmatizers_all_ovw_true_saa05lemmas_suff-0.0.0.tar.gz
       md5: null
   spacy_version: 3.4.1
   spacy_git_version: 5c2a00cef
@@ -72,11 +72,11 @@ evaluate:
       ./metrics/UD_Akkadian_saa01.json  --gpu-id -1
   deps:
     - path: training/UD_Akkadian_saa01/model-best
-      md5: de829ebf0aadd36a4933ecf68c8bb40f
+      md5: 6b5eab3d2fc3a15d29c8fcb5d9011b37
     - path: corpus/UD_Akkadian_saa01/test
       md5: 14c67bcbb17ef7c8ecfd3eb79203c22f
   outs:
     - path: metrics/UD_Akkadian_saa01.json
-      md5: 33dab7957a655b79b1d9849026ae1f3e
+      md5: 49c0638752c072fea8482f2996380fe2
   spacy_version: 3.4.1
   spacy_git_version: 5c2a00cef

@@ -7,7 +7,7 @@ from spacy.lang.punctuation import TOKENIZER_SUFFIXES as BASE_TOKENIZER_SUFFIXES
 from spacy.lang.punctuation import TOKENIZER_INFIXES as BASE_TOKENIZER_INFIXES
 
 
-_prefixes = ['{'] + BASE_TOKENIZER_PREFIXES
+_prefixes = [r"{"] + BASE_TOKENIZER_PREFIXES
 
 _suffixes = BASE_TOKENIZER_SUFFIXES
 

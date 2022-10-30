@@ -15,7 +15,7 @@ description: >
 
 # Variables can be referenced across the project.yml using ${vars.var_name}
 vars:
-  config: "combined_lemmatizers_suff"
+  config: "combined_lemmatizers_suff_rich"
   lang: "ak"
   treebank: "UD_Akkadian_saa01"
   train_name: "akk_combined_nonrenumbered-ud-train"
